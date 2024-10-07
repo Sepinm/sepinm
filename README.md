@@ -29,13 +29,15 @@
 ```
 vim tryme.sh
 
+```
+```
 #!/bin/bash
 printf "EZ\nas\na\npie\nwhy\n" > ./whatisthis.txt
 sleep 1
 sed -i 's/why/A man with not necessary a plan but with a why not -attitude/g' whatisthis.txt
 cat whatisthis.txt | grep why
 rm whatisthis.txt
-
-sudo chmod +x tryme.sh
-./tryme.sh
+```
+```
+sudo chmod +x tryme.sh && ./tryme.sh
 ```
