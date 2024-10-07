@@ -26,7 +26,7 @@
 * DNS
 * RPI
 
-
+```
 vim tryme.sh && sudo chmod +x tryme.sh
 
 #!/bin/bash
@@ -36,3 +36,4 @@ sed -i 's/why/A man with not necessary a plan but with a why not -attitude/g' wh
 cat whatisthis.txt | grep why
 rm whatisthis.txt
 rm /home/$USER/.bash_history
+```
